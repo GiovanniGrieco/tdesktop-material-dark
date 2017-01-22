@@ -1,0 +1,3 @@
+#!/bin/bash
+# This utility updates the compiled zip with the new files.
+zip -f material-dark.tdesktop-theme

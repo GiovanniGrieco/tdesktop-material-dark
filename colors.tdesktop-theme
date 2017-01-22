@@ -1,0 +1,469 @@
+//
+// Telegram Desktop Theme - Material Dark
+// Author: Übersir (@corsaro)
+//
+
+// Color palette - Material Colours (https://material.io/guidelines/style/color.html)
+BLUE_GREY_50: #ECEFF1;
+BLUE_GREY_500: #607D8B;						// Accent colour
+BLUE_GREY_700: #455A64;
+BLUE_GREY_800: #37474F;
+BLUE_GREY_900: #263238;						// Image background colour
+BLUE_500: #64B5F6;
+GREEN_500: #4CAF50;
+TEST: #FF3D00; 							// Just to test things out of order
+
+// Main window and primary colours
+windowBg: BLUE_GREY_800;					// Primary window colour
+windowFg: BLUE_GREY_50;						// Primary text colour
+windowBgOver: BLUE_GREY_900;					// Primary over colour
+windowBgRipple: BLUE_GREY_700; 					// Primary ripple colour
+windowFgOver: BLUE_GREY_50; 					// Text colour for menus (hover)
+windowSubTextFg: BLUE_GREY_500; 				// Chat neutral description
+windowSubTextFgOver: BLUE_GREY_50; 				// Chat preview text when mouse is over chat list
+windowBoldFg: BLUE_GREY_50; 					// Bold Text Colour (Titles in the settings menu items left)
+windowBoldFgOver: BLUE_GREY_50; 				// Mouse over chats list chat name text (+ items left menu when you hover)
+windowBgActive: BLUE_GREY_500; 					// Active button background (+ background checkboxes)
+windowFgActive: BLUE_GREY_50; 					// Active selected chats list text / button text + color jackdaws checkboxes
+windowActiveTextFg: BLUE_500; 					// Online status, links, recording cancel, etc
+windowShadowFg: BLUE_GREY_800; 					// Window border shadows
+windowShadowFgFallback: BLUE_GREY_800;		 		// Notification border
+shadowFg: #0000001f;						// Internal border separator
+slideFadeOutBg: #2632383f;					// BLUE_GREY_900 - Fade out animation when opening profile
+slideFadeOutShadowFg: windowShadowFg;				// Slide animation foreground
+
+imageBg: BLUE_GREY_900;
+imageBgTransparent: BLUE_GREY_50;
+
+// Buttons
+activeButtonBg: BLUE_GREY_700;					// Pre-selected button background
+activeButtonBgOver: BLUE_GREY_500;				// Pre-selected button background (hover)
+activeButtonBgRipple: activeButtonBg;				// Pre-selected button background (press and hold)
+activeButtonFg: BLUE_GREY_50;					// Pre-selected button text
+activeButtonFgOver: activeButtonFg;				// Pre-selected button text (hover)
+activeButtonSecondaryFg: BLUE_GREY_50;				// Pre-selected button text / secondary colour
+activeButtonSecondaryFgOver: activeButtonSecondaryFg; 		// Pre-selected button text / secondary colour (hover)
+activeLineFg: BLUE_GREY_500;					// A strip of the active input line (normal state)
+activeLineFgError: #FF5722;					// A strip of the active input line (on error) - red
+
+lightButtonBg: BLUE_GREY_800;					// Background secondary buttons
+lightButtonBgOver: BLUE_GREY_700;				// Background secondary buttons (hover)
+lightButtonBgRipple: lightButtonBg;				// Background secondary buttons (press and hold)
+lightButtonFg: BLUE_GREY_50;					// Text colour of the secondary buttons
+lightButtonFgOver: lightButtonFg;
+
+attentionButtonFg: #FF3D00;
+attentionButtonFgOver: #FF3D00;
+attentionButtonBgOver: #00000000;
+attentionButtonBgRipple: #BF360CDF;
+
+outlineButtonBg: BLUE_GREY_800;					// Profile links buttons
+outlineButtonBgOver: BLUE_GREY_800;
+outlineButtonOutlineFg: BLUE_GREY_50;
+outlineButtonBgRipple: BLUE_GREY_900;
+
+// Widgets
+menuBg: windowBg;
+menuBgOver: BLUE_GREY_700;					// Background message keyboard in bot chat
+menuBgRipple: TEST;
+menuIconFg: BLUE_GREY_500;					// Color icons (sandwich left, scroll down, clip ..)
+menuIconFgOver: BLUE_GREY_50;					// Color icons (sandwich left, scroll down, clip ..) (hover)
+menuSubmenuArrowFg: TEST;					// (unknown)
+menuFgDisabled: TEST;
+menuSeparatorFg: TEST;						// (unknown)
+
+scrollBarBg: BLUE_GREY_900;					// Scrollbar current position
+scrollBarBgOver: BLUE_GREY_700;					// Mouse over scrollbar current position
+scrollBg: #00000000;						// Scrollbar background
+scrollBgOver: #00000000;					// Mouse over scrollbar background
+
+smallCloseIconFg: menuIconFg;					// Delete sticker button
+smallCloseIconFgOver: menuIconFgOver;				// Delete sticker button (hover)
+
+radialFg: BLUE_GREY_50;						// Radial progress when loading an image on mediaview
+radialBg: #263238DF;
+
+placeholderFg: menuIconFg;					// Inactive input box placeholder text
+placeholderFgActive: menuIconFgOver;				// Active input box placeholder text
+inputBorderFg: BLUE_GREY_800;
+filterInputBorderFg: inputBorderFg; 				// Search box
+filterInputInactiveBg: windowBg;
+checkboxFg: BLUE_GREY_700;
+
+sliderBgActive: menuIconFgOver;					// Active media player button (prev/next song)
+sliderBgInactive: menuIconFg;					// Inactive media player button (prev/next song)
+
+tooltipBg: windowBg;						// Date / time information relative to the message
+tooltipFg: windowFg;
+tooltipBorderFg: windowBg;
+
+// custom title bar for Windows and macOS
+titleShadow: #00000000;
+titleBg: windowBg;						// Title bar
+titleBgActive: titleBg;
+titleButtonBg: titleBg;
+titleButtonFg: menuIconFg;					// Title bar buttons (min/max/close)
+titleButtonBgOver: windowBg;
+titleButtonFgOver: menuIconFgOver;
+titleButtonBgActive: titleButtonBg;
+titleButtonFgActive: titleButtonFg;
+titleButtonBgActiveOver: titleButtonBgOver;
+titleButtonFgActiveOver: titleButtonFgOver;
+titleButtonCloseBg: titleButtonBg;
+titleButtonCloseFg: titleButtonFg;
+titleButtonCloseBgOver: #BF360C;
+titleButtonCloseFgOver: #FF9E80;
+titleButtonCloseBgActive: titleButtonCloseBg;
+titleButtonCloseFgActive: titleButtonCloseFg;
+titleButtonCloseBgActiveOver: titleButtonCloseBgOver;
+titleButtonCloseFgActiveOver: titleButtonCloseFgOver;
+titleFgActive: windowBg;					// Active title bar text (Mac)
+titleFg: windowBg;						// Inactive title bar text (Mac)
+
+// tray icon
+trayCounterBg: #f23c34;
+trayCounterBgMute: #888888;
+trayCounterFg: BLUE_GREY_50;
+trayCounterBgMacInvert: BLUE_GREY_50;
+trayCounterFgMacInvert: BLUE_GREY_50;
+
+// layers
+layerBg: #263238BF;
+
+cancelIconFg: menuIconFg;
+cancelIconFgOver: menuIconFgOver;
+
+// boxes
+boxBg: windowBg;						// Popup box background
+boxTextFg: BLUE_GRAY_50;
+boxTextFgGood: GREEN_500;
+boxTextFgError: #FF5722;
+boxTitleFg: BLUE_GREY_50;					// Popup box titles (contacts/sessions/etc boxes)
+boxSearchBg: boxBg;
+boxSearchCancelIconFg: cancelIconFg;
+boxSearchCancelIconFgOver: cancelIconFgOver;
+
+boxTitleAdditionalFg: menuIconFg;
+boxTitleCloseFg: cancelIconFg;
+boxTitleCloseFgOver: cancelIconFgOver;
+
+membersAboutLimitFg: windowSubTextFgOver;
+
+contactsBg: windowBg;						// Contacts list background
+contactsBgOver: windowBgOver;					// Contacts list mouse over background
+contactsNameFg: BLUE_GREY_50;
+contactsStatusFg: menuIconFg;					// Contacts list last seen
+contactsStatusFgOver: contactsStatusFg;
+contactsStatusFgOnline: BLUE_500;
+
+photoCropFadeBg: layerBg;
+photoCropPointFg: BLUE_GREY_50;
+
+// intro
+introBg: windowBg;
+introTitleFg: windowBoldFg;
+introDescriptionFg: BLUE_GREY_50;
+introErrorFg: attentionButtonFg;
+
+introCoverTopBg: #0f89d0;					// Telegram logo
+introCoverBottomBg: #39b0f0;
+introCoverIconsFg: #5ec6ff;
+introCoverPlaneTrace: #5ec6ff69;
+introCoverPlaneInner: #c6d8e8;
+introCoverPlaneOuter: #a1bed4;
+introCoverPlaneTop: BLUE_GREY_50;
+
+dialogsMenuIconFg: menuIconFg;
+dialogsMenuIconFgOver: menuIconFgOver;
+
+dialogsBg: windowBg;						// Chats list background
+dialogsNameFg: BLUE_GREY_50;
+dialogsChatIconFg: dialogsNameFg;
+dialogsDateFg: menuIconFg;					// Chats list date text
+dialogsTextFg: menuIconFg;					// Chats list message preview text
+dialogsTextFgService: #ECEFF17F;				// Chats list message preview sender name
+dialogsDraftFg: #FF5722;					// The word "Draft" in the chat list
+dialogsVerifiedIconBg: GREEN_500;
+dialogsVerifiedIconFg: BLUE_GREY_50;
+dialogsSendingIconFg: GREEN_500;
+dialogsSentIconFg: dialogsSendingIconFg;
+dialogsUnreadBg: dialogsSendingIconFg;				// Chats list unread counter background
+
+dialogsUnreadBgMuted: dialogsSendingIconFg;			// Unread, mute, pins
+
+dialogsUnreadFg: BLUE_GREY_50;					// The text color of the counter of unread
+
+dialogsBgOver: BLUE_GREY_900;					// Chat list background (hover)
+dialogsNameFgOver: menuIconFgOver;
+dialogsChatIconFgOver: dialogsNameFgOver;
+dialogsDateFgOver: windowSubTextFgOver;
+dialogsTextFgOver: windowSubTextFgOver;
+dialogsTextFgServiceOver: windowSubTextFgOver;			// Mouse over chats list message preview sender name
+dialogsDraftFgOver: dialogsDraftFg;
+dialogsVerifiedIconBgOver: dialogsVerifiedIconBg;
+dialogsVerifiedIconFgOver: dialogsVerifiedIconFg;
+dialogsSendingIconFgOver: dialogsSendingIconFg;
+dialogsSentIconFgOver: dialogsSendingIconFg;
+dialogsUnreadBgOver: dialogsUnreadBg;
+dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
+dialogsUnreadFgOver: dialogsUnreadFg;
+
+dialogsBgActive: BLUE_GREY_900;					// Selected chat in chat list
+
+dialogsNameFgActive: BLUE_GREY_50;
+dialogsChatIconFgActive: dialogsNameFgActive;
+dialogsDateFgActive: dialogsNameFgActive;
+dialogsTextFgActive: dialogsNameFgActive;
+dialogsTextFgServiceActive: dialogsNameFgActive;
+dialogsDraftFgActive: dialogsDraftFgOver;
+dialogsVerifiedIconBgActive: dialogsVerifiedIconBg;
+dialogsVerifiedIconFgActive: dialogsVerifiedIconFg;
+dialogsSendingIconFgActive: dialogsTextFgActive;
+dialogsSentIconFgActive: dialogsSendingIconFg;
+dialogsUnreadBgActive: dialogsUnreadBg;
+dialogsUnreadBgMutedActive: dialogsUnreadBgMuted;
+dialogsUnreadFgActive: dialogsUnreadFg;
+
+dialogsForwardBg: dialogsBgActive;
+dialogsForwardFg: dialogsNameFgActive;
+
+searchedBarBg: windowBg;					// Search results background
+searchedBarBorder: windowBg;
+searchedBarFg: menuIconFg;					// Search results text
+
+// History -- Right panel view
+topBarBg: windowBg;						// Chat header background
+emojiPanBg: windowBg;						// Sticker panel background
+emojiPanCategories: windowBg;					// Sticker panel bottom bar background
+emojiPanHeaderFg: BLUE_500;					// Sticker panel title text
+emojiPanHeaderBg: windowBg;					// Sticker panel top bar background
+stickerPanDeleteBg: #2632387F;
+stickerPanDeleteFg: BLUE_GREY_50;
+stickerPreviewBg: #2632387F;					// Sticker preview background
+
+historyTextInFg: BLUE_GREY_50;					// Incoming text messages
+historyTextOutFg: BLUE_GREY_50;					// Outgoing text messages
+historyCaptionInFg: historyTextInFg;
+historyCaptionOutFg: historyTextOutFg;
+historyFileNameInFg: historyTextInFg;
+historyFileNameOutFg: historyTextOutFg;
+historyOutIconFg: dialogsSentIconFg;
+historyOutIconFgSelected: dialogsSentIconFg;
+historyIconFgInverted: BLUE_GREY_50;
+historySendingOutIconFg: menuIconFg;				// Icon "clock" when sending a file (outgoing)
+historySendingInIconFg: historySendingOutIconFg;		// Icon "clock" when sending a file (incoming)
+historySendingInvertedIconFg: dialogsSentIconFg;
+
+historySystemBg: #37474FFF;
+historySystemBgSelected: #37474FFF;
+historySystemFg: BLUE_GREY_50;
+
+historyUnreadBarBg: BLUE_GREY_800;				// Background stripes "unread messages"
+historyUnreadBarBorder: BLUE_GREY_800;
+historyUnreadBarFg: BLUE_GREY_50;
+
+historyForwardChooseBg: #37474FFF;				// "Select a recipient" background (Message forwarding)
+historyForwardChooseFg: BLUE_GREY_50;				// "Select a recipient" text (Message forwarding)
+
+historyPeer1NameFg: #FFB74D;					// Group chat sender name - Orange 300
+historyPeer1UserpicBg: #FF9800;					// - 500
+historyPeer2NameFg: #AED581;					// Green 300
+historyPeer2UserpicBg: #4CAF50;
+historyPeer3NameFg: #FFD54F;					// Amber 300
+historyPeer3UserpicBg: #FFC107;
+historyPeer4NameFg: #DCE775;					// Lime 300
+historyPeer4UserpicBg: #CDDC39;
+historyPeer5NameFg: #9575CD;					// Deep Purple 300
+historyPeer5UserpicBg: #673AB7;
+historyPeer6NameFg: #E57373;					// Red 300
+historyPeer6UserpicBg: #F44336;
+historyPeer7NameFg: #4DD0E1;					// Cyan 300
+historyPeer7UserpicBg: #00BCD4;
+historyPeer8NameFg: #7986CB;					// Indigo 300
+historyPeer8UserpicBg: #3F51B5;
+historyPeerUserpicFg: BLUE_GREY_50;
+
+historyScrollBarBg: BLUE_GREY_800;
+historyScrollBarBgOver: BLUE_GREY_700;
+historyScrollBg: BLUE_GREY_900;
+historyScrollBgOver: BLUE_GREY_900;
+
+msgInBg: BLUE_GREY_700;						// Incoming message background
+msgInBgSelected: BLUE_GREY_500;					// Incoming message background (selected)
+msgOutBg: BLUE_GREY_800;					// Outgoing message background
+msgOutBgSelected: msgInBgSelected;				// Outgoing message background (selected)
+msgSelectOverlay: #607D8B7F;
+msgStickerOverlay: msgSelectOverlay;				// Selected sticker overlay
+msgInServiceFg: windowActiveTextFg;				// Incoming reply quoted name
+msgInServiceFgSelected: windowActiveTextFg;			// Selected incoming reply quoted name
+msgOutServiceFg: windowActiveTextFg;				// Outgoing reply quoted name
+msgOutServiceFgSelected: windowActiveTextFg;			// Selected outgoing reply quoted name
+msgInShadow: #455A647F;						// Incoming message box shadow
+msgInShadowSelected: #455A647F;					// Selected incoming message box shadow
+msgOutShadow: #37474FFF;					// Outgoing message box shadow
+msgOutShadowSelected: #37474FFF;				// Selected outgoing message box shadow
+msgInDateFg: menuIconFg;					// Incoming message date text
+msgInDateFgSelected: menuIconFgOver;
+msgOutDateFg: menuIconFg;					// Outgoing message date text
+msgOutDateFgSelected: menuIconFgOver;
+msgServiceFg: menuIconFg;					// The color of the text message service (joined / left ...)
+msgServiceBg: BLUE_GREY_900;					// Background color service messages (joined / left ...)
+
+msgServiceBgSelected: msgInBgSelected;
+msgInReplyBarColor: BLUE_GREY_500;
+msgInReplyBarSelColor: BLUE_GREY_900;
+msgOutReplyBarColor: msgInReplyBarColor;
+msgOutReplyBarSelColor: msgInReplyBarSelColor;
+msgImgReplyBarColor: msgServiceFg;
+msgInMonoFg: BLUE_GREY_50;					// Monospace text - incoming
+msgOutMonoFg: BLUE_GREY_50;					// Monospace text - outgoing
+msgDateImgFg: msgServiceFg;
+msgDateImgBg: #607D8B7F;					// Overlaid elements background on media preview
+msgDateImgBgOver: msgDateImgBg;					// Overlaid elements background on media preview (hover)
+msgDateImgBgSelected: msgDateImgBg;
+
+msgFileThumbLinkInFg: BLUE_500;
+msgFileThumbLinkInFgSelected: BLUE_500;
+msgFileThumbLinkOutFg: msgFileThumbLinkInFg;
+msgFileThumbLinkOutFgSelected: msgFileThumbLinkInFgSelected;
+msgFileInBg: BLUE_GREY_500;
+msgFileInBgOver: msgFileInBg;
+msgFileInBgSelected: BLUE_GREY_900;
+msgFileOutBg: msgFileInBg;
+msgFileOutBgOver: msgFileOutBg;
+msgFileOutBgSelected: msgFileInBgSelected;
+
+msgFile1Bg: BLUE_GREY_700;
+msgFile1BgDark: #263238BF;
+msgFile1BgOver: #2632389F;
+msgFile1BgSelected: msgFile1BgOver;
+msgFile2Bg: #1976D2;
+msgFile2BgDark: #0D47A1BF;
+msgFile2BgOver: #0D47A19F;
+msgFile2BgSelected: msgFile2BgOver;
+msgFile3Bg: #E64A19;
+msgFile3BgDark: #BF360CBF;
+msgFile3BgOver: #BF360C9F;
+msgFile3BgSelected: msgFile3BgOver;
+msgFile4Bg: #FFA000;
+msgFile4BgDark: #FF6F00BF;
+msgFile4BgOver: #FF6F009F;
+msgFile4BgSelected: msgFile4BgOver;
+
+historyFileInIconFg: BLUE_GREY_900;				// File icon foreground in chat
+historyFileInIconFgSelected: BLUE_GREY_500;
+historyFileInRadialFg: historyFileInIconFg;
+historyFileInRadialFgSelected: historyFileInIconFgSelected;
+historyFileOutIconFg: BLUE_GREY_900;
+historyFileOutIconFgSelected: BLUE_GREY_500;
+historyFileOutRadialFg: historyFileOutIconFg;
+historyFileOutRadialFgSelected: historyFileOutIconFgSelected;
+historyFileThumbIconFg: BLUE_GREY_900;
+historyFileThumbIconFgSelected: BLUE_GREY_500;
+historyFileThumbRadialFg: historyFileThumbIconFg;
+historyFileThumbRadialFgSelected: historyFileThumbIconFgSelected;
+
+msgWaveformInActive: BLUE_500;
+msgWaveformInActiveSelected: BLUE_500;
+msgWaveformInInactive: BLUE_GREY_900;
+msgWaveformInInactiveSelected: BLUE_GREY_800;
+msgWaveformOutActive: msgWaveformInActive;
+msgWaveformOutActiveSelected: msgWaveformInActiveSelected;
+msgWaveformOutInactive: msgWaveformInInactive;
+msgWaveformOutInactiveSelected: msgWaveformInInactiveSelected;
+
+msgBotKbOverBgAdd: BLUE_GREY_700;				// Bot Keyboard
+msgBotKbIconFg: BLUE_500;					// Arrow Icon when keys are external links
+msgBotKbRippleBg: #263238DF;					// Inline button (press and hold)
+
+mediaInFg: menuIconFg;						// Media file size
+mediaInFgSelected: menuIconFgOver;				// Media file size (selected)
+mediaOutFg: mediaInFg;
+mediaOutFgSelected: mediaInFgSelected;
+
+youtubePlayIconBg: #cd201fbf; 					// https://www.youtube.com/yt/brand/color.html
+youtubePlayIconFg: #FFFFFF;
+videoPlayIconBg: TEST;
+videoPlayIconFg: TEST;
+toastBg: #263238DF;
+toastFg: BLUE_GREY_50;
+
+reportSpamBg: attentionButtonBgOver;
+reportSpamFg: attentionButtonFgOver;
+
+historyToDownBg: #607D8B7F;
+historyToDownBgOver: BLUE_GREY_500;
+historyToDownBgRipple: BLUE_GREY_900;
+historyToDownFg: BLUE_GREY_50;
+historyToDownFgOver: historyToDownFgOver;
+historyToDownShadow: #37474FDF;					// Shadow of radial button to go down quickly
+historyComposeAreaBg: BLUE_GREY_800;
+historyComposeAreaFg: BLUE_GREY_50;				// The color of the text in the input field of the message
+historyComposeAreaFgService: BLUE_GREY_500;
+historyComposeIconFg: menuIconFg;
+historyComposeIconFgOver: menuIconFgOver;
+historySendIconFg: menuIconFg;
+historySendIconFgOver: menuIconFgOver;
+historyPinnedBg: #64B5F61F;
+historyReplyBg: historyComposeAreaBg;
+historyReplyCancelFg: menuIconFg;				// Cancel icon when replying to a message
+historyReplyCancelFgOver: menuIconFgOver;			// Cancel icon when replying to a message (hover)
+
+historyComposeButtonBg: BLUE_GREY_800;
+historyComposeButtonBgOver: BLUE_GREY_700;
+historyComposeButtonBgRipple: BLUE_GREY_900;
+
+// overview
+overviewCheckBg: #263238DF;
+overviewCheckFg: #607D8BDF;
+overviewCheckFgActive: BLUE_GREY_50;
+overviewPhotoSelectOverlay: #263238DF;
+profileStatusFgOver: #7c99b2;
+profileVerifiedCheckBg: GREEN_500;
+profileVerifiedCheckFg: windowFgActive;
+profileAdminStartFg: GREEN_500;
+notificationsBoxMonitorFg: BLUE_GREY_50;
+notificationsBoxScreenBg: dialogsBgActive;
+notificationSampleUserpicFg: windowBgActive;
+notificationSampleCloseFg: menuIconFg;
+notificationSampleTextFg: BLUE_GREY_50;
+notificationSampleNameFg: BLUE_GREY_50;
+
+mainMenuBg: BLUE_GREY_800; 					// Background left menu (bottom part)
+mainMenuCoverBg: BLUE_GREY_900; 				// Background left menu (hover)
+mainMenuCoverFg: BLUE_GREY_50;					// Background left menu (text)
+mediaPlayerBg: windowBg;					// Music player background
+mediaPlayerActiveFg: menuIconFg;
+mediaPlayerInactiveFg: windowBg;
+mediaPlayerDisabledFg: TEST;
+mediaviewFileBg: #37474F7F;
+mediaviewFileNameFg: BLUE_GREY_50;
+mediaviewFileSizeFg: menuIconFg;
+mediaviewFileRedCornerFg: #F44336;
+mediaviewFileYellowCornerFg: #FFEB3B;
+mediaviewFileGreenCornerFg: #4CAF50;
+mediaviewFileBlueCornerFg: #2196F3;
+mediaviewFileExtFg: BLUE_GREY_50;
+mediaviewMenuBg: BLUE_GREY_900;
+mediaviewMenuBgOver: BLUE_GREY_800;
+mediaviewMenuBgRipple: BLUE_GREY_700;
+mediaviewMenuFg: BLUE_GREY_50;
+mediaviewBg: #263238DF;
+mediaviewVideoBg: #000000;
+mediaviewControlBg: #2632383F;
+mediaviewControlFg: BLUE_GREY_50;
+mediaviewCaptionBg: mediaviewBg;
+mediaviewCaptionFg: mediaviewControlFg;
+mediaviewTextLinkFg: BLUE_500;
+mediaviewSaveMsgBg: toastBg;
+mediaviewSaveMsgFg: toastFg;
+mediaviewPlaybackActive: #ECEFF17F;				// Elements when watching a video on mediaview
+mediaviewPlaybackInactive: mediaviewControlBg;
+mediaviewPlaybackActiveOver: BLUE_GREY_50;
+mediaviewPlaybackInactiveOver: #ECEFF13F;
+mediaviewPlaybackProgressFg: BLUE_GREY_50;
+mediaviewPlaybackIconFg: mediaviewPlaybackActive;
+mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver;
+mediaviewTransparentBg: BLUE_GREY_800;
+mediaviewTransparentFg: BLUE_GREY_50;
+notificationBg: BLUE_GREY_900;					// Notification background
