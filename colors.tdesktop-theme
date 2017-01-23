@@ -383,8 +383,8 @@ mediaOutFgSelected: mediaInFgSelected;
 
 youtubePlayIconBg: #cd201fbf; 					// https://www.youtube.com/yt/brand/color.html
 youtubePlayIconFg: #FFFFFF;
-videoPlayIconBg: TEST;
-videoPlayIconFg: TEST;
+videoPlayIconBg: #607D8B9F;					// .gifv and alike
+videoPlayIconFg: BLUE_GREY_900;
 toastBg: #263238DF;
 toastFg: BLUE_GREY_50;
 
