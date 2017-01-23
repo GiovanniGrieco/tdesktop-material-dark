@@ -18,4 +18,4 @@ Here is the chosen palette:
 
 If you see the last colour where is unexpected, please let me know! I used it to test things and learn how to theme Telegram.
 
-**Do you want to meke this theme better?** You can write me a feedback here on Github so I can improve this theme. And thank you!
+**Do you want improve this theme?** Feel free to leave me a feedback, thank you!
