@@ -317,7 +317,7 @@ msgOutReplyBarSelColor: msgInReplyBarSelColor;
 msgImgReplyBarColor: msgServiceFg;
 msgInMonoFg: BLUE_GREY_50;					// Monospace text - incoming
 msgOutMonoFg: BLUE_GREY_50;					// Monospace text - outgoing
-msgDateImgFg: msgServiceFg;
+msgDateImgFg: BLUE_GREY_50;
 msgDateImgBg: #607D8B7F;					// Overlaid elements background on media preview
 msgDateImgBgOver: msgDateImgBg;					// Overlaid elements background on media preview (hover)
 msgDateImgBgSelected: msgDateImgBg;
