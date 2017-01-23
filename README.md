@@ -1,8 +1,8 @@
 # Material Dark for Telegram Desktop
 
-![Theme Preview](preview.png)
+If you want **to install it, click [here](https://github.com/corsaroquad/tdesktop-material-dark/releases)!**
 
-Here is the full source code for the theme. If you want to install it, click [here](https://github.com/corsaroquad/tdesktop-material-dark/releases)!
+![Theme Preview](preview.png)
 
 This theme has been written from scratch following Google's [Material palette](https://material.io/guidelines/style/color.html#color-color-palette).
 
@@ -15,7 +15,5 @@ Here is the chosen palette:
 - ![#64B5F6](http://placehold.it/32/64B5F6/000000?text=+) `#64B5F6`
 - ![#4CAF50](http://placehold.it/32/4CAF50/000000?text=+) `#4CAF50`
 - ![#FF3D00](http://placehold.it/32/FF3D00/000000?text=+) `#FF3D00`
-
-If you see the last colour where is unexpected, please let me know! I used it to test things and learn how to theme Telegram.
 
 **Do you want improve this theme?** Feel free to leave me a feedback, thank you!
