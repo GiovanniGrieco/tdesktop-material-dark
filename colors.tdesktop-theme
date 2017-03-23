@@ -64,13 +64,13 @@ outlineButtonBgRipple: BLUE_GREY_900;
 
 // Widgets
 menuBg: windowBg;
-menuBgOver: BLUE_GREY_700;					// Background message keyboard in bot chat
+menuBgOver: BLUE_GREY_500;					// Background message keyboard in bot chat
 menuBgRipple: TEST;
 menuIconFg: BLUE_GREY_500;					// Color icons (sandwich left, scroll down, clip ..)
 menuIconFgOver: BLUE_GREY_50;					// Color icons (sandwich left, scroll down, clip ..) (hover)
 menuSubmenuArrowFg: TEST;					// (unknown)
-menuFgDisabled: TEST;
-menuSeparatorFg: TEST;						// (unknown)
+menuFgDisabled: BLUE_GREY_900;					// disabled items in right click menu
+menuSeparatorFg: BLUE_GREY_900;					// separator in right click menu
 
 scrollBarBg: BLUE_GREY_900;					// Scrollbar current position
 scrollBarBgOver: BLUE_GREY_700;					// Mouse over scrollbar current position
@@ -254,7 +254,7 @@ historySendingOutIconFg: menuIconFg;				// Icon "clock" when sending a file (out
 historySendingInIconFg: historySendingOutIconFg;		// Icon "clock" when sending a file (incoming)
 historySendingInvertedIconFg: dialogsSentIconFg;
 
-historySystemBg: #37474FFF;
+historySystemBg: TEST;
 historySystemBgSelected: #37474FFF;
 historySystemFg: BLUE_GREY_50;
 
