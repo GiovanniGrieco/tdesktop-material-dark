@@ -395,7 +395,7 @@ historyToDownBg: #607D8B7F;
 historyToDownBgOver: BLUE_GREY_500;
 historyToDownBgRipple: BLUE_GREY_900;
 historyToDownFg: BLUE_GREY_50;
-historyToDownFgOver: historyToDownFgOver;
+historyToDownFgOver: TEST;
 historyToDownShadow: #37474FDF;					// Shadow of radial button to go down quickly
 historyComposeAreaBg: BLUE_GREY_800;
 historyComposeAreaFg: BLUE_GREY_50;				// The color of the text in the input field of the message
